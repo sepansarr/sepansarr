@@ -2,15 +2,21 @@
 
 <h3><code>sepansarr@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap, last 12 months" />
 
 <br><br>
 
 <h3><code>sepansarr@github ~ $ whoami --ascii</code></h3>
 
-<img src="./identity.svg" width="860" alt="Terminal Identity" />
+<img src="./identity.svg" width="860" alt="Animated Faravahar ASCII logo and SEPANSAR wordmark" />
 
 <br><br>
+
+<h3><code>sepansarr@github ~ $ whoami --verbose</code></h3>
+
+<img src="./info-card.svg" width="860" alt="Profile info card" />
+
+<br>
 
 <h3><code>sepansarr@github ~ $ cat contact.txt</code></h3>
 
