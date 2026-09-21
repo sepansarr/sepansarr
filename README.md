@@ -12,12 +12,6 @@
 
 <br><br>
 
-<h3><code>sepansarr@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap, last 12 months" />
-
-<br><br>
-
 <h3><code>sepansarr@github ~ $ cat contact.txt</code></h3>
 
 <p>
