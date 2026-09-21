@@ -2,14 +2,13 @@
 
 <h3><code>sepansarr@github ~ $ ./contributions.sh</code></h3>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sepansarr&theme=github-compact&hide_border=true&area=true" width="860" alt="Contribution Graph" />
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
 
 <br><br>
 
-<h3><code>sepansarr@github ~ $ whoami --stats</code></h3>
+<h3><code>sepansarr@github ~ $ whoami --ascii</code></h3>
 
-<img src="https://github-readme-stats.vercel.app/api?username=sepansarr&show_icons=true&theme=tokyonight&hide_border=true" width="425" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sepansarr&layout=compact&theme=tokyonight&hide_border=true" width="425" alt="Top Languages" />
+<img src="./identity.svg" width="860" alt="Terminal Identity" />
 
 <br><br>
 
