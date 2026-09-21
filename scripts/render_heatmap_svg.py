@@ -1,14 +1,20 @@
 import json
 import os
+from datetime import datetime
 
 colors = ["#0f172a", "#1e3a8a", "#1d4ed8", "#2563eb", "#38bdf8"]
 
 json_path = "data/contributions.json"
-if not os.path.exists(json_path):
-    days_data = []
-else:
+if os.path.exists(json_path):
     with open(json_path, "r", encoding="utf-8") as f:
         days_data = json.load(f)
+else:
+    days_data = []
+
+days_map = {d["date"]: d.get("level", 0) for d in days_data}
+
+total_days = len(days_data)
+recent = days_data[-371:] if total_days >= 371 else days_data
 
 svg_rects = []
 x_offset = 44
@@ -16,9 +22,7 @@ y_offset = 68
 box_size = 12
 gap = 3
 
-recent_days = days_data[-371:] if len(days_data) >= 371 else days_data
-
-for i, day in enumerate(recent_days):
+for i, day in enumerate(recent):
     col = i // 7
     row = i % 7
     x = x_offset + col * (box_size + gap)
