@@ -1,11 +1,5 @@
 <div align="center">
 
-<h3><code>sepansarr@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap, last 12 months" />
-
-<br><br>
-
 <h3><code>sepansarr@github ~ $ whoami --ascii</code></h3>
 
 <img src="./identity.svg" width="860" alt="Animated Faravahar ASCII logo and SEPANSAR wordmark" />
@@ -16,7 +10,13 @@
 
 <img src="./info-card.svg" width="860" alt="Profile info card" />
 
-<br>
+<br><br>
+
+<h3><code>sepansarr@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap, last 12 months" />
+
+<br><br>
 
 <h3><code>sepansarr@github ~ $ cat contact.txt</code></h3>
 
