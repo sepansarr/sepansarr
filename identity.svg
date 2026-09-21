@@ -1,16 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="432" viewBox="0 0 860 432" role="img" aria-label="Animated Faravahar ASCII logo and SEPANSAR wordmark">
 <defs>
   <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset=".45" stop-color="#1d4ed8"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
-  <linearGradient id="word" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#60a5fa"/><stop offset=".50" stop-color="#3b82f6"/><stop offset="1" stop-color="#93c5fd"/></linearGradient>
+  <linearGradient id="word" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#60a5fa"/><stop offset=".50" stop-color="#38bdf8"/><stop offset="1" stop-color="#93c5fd"/></linearGradient>
   <radialGradient id="glow"><stop stop-color="#2563eb" stop-opacity=".22"/><stop offset="1" stop-color="#1e3a8a" stop-opacity="0"/></radialGradient>
-  <clipPath id="type"><rect width="424" height="238"><animate attributeName="width" from="0" to="424" dur="2.25s" calcMode="spline" keySplines=".32 .72 0 1" fill="freeze"/></rect></clipPath>
-  <style>
-    @keyframes phaseA{0%,40%{opacity:1}55%,91%{opacity:0}100%{opacity:1}}
-    @keyframes phaseB{0%,40%{opacity:0}55%,91%{opacity:1}100%{opacity:0}}
-    .phase-a{animation:phaseA 3.8s cubic-bezier(.32,.72,0,1) infinite}
-    .phase-b{animation:phaseB 3.8s cubic-bezier(.32,.72,0,1) infinite}
-    @media(prefers-reduced-motion:reduce){.phase-a,.phase-b{animation:none}.phase-b{display:none}}
-  </style>
+  <clipPath id="type"><rect width="424" height="238"><animate attributeName="width" from="0" to="424" dur="1.8s" calcMode="spline" keySplines=".32 .72 0 1" fill="freeze"/></rect></clipPath>
+  
   <clipPath id="w0"><rect x="16" y="14" width="600" height="14"><animate attributeName="width" from="0" to="600" begin="0.0s" dur="0.34s" fill="freeze"/></rect></clipPath>
   <clipPath id="w1"><rect x="16" y="25" width="600" height="14"><animate attributeName="width" from="0" to="600" begin="0.07s" dur="0.34s" fill="freeze"/></rect></clipPath>
   <clipPath id="w2"><rect x="16" y="36" width="600" height="14"><animate attributeName="width" from="0" to="600" begin="0.14s" dur="0.34s" fill="freeze"/></rect></clipPath>
@@ -57,7 +51,7 @@
 <text x="28" y="86" font-family="ui-monospace,Consolas,monospace" font-size="10" font-weight="700" letter-spacing="1.3" fill="#38bdf8">LOGO.ASCII / @SEPANSARR</text>
 
 <svg x="20" y="95" width="338" height="318" viewBox="8 0 616 367" preserveAspectRatio="xMidYMid meet">
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace" font-size="10.0" fill="#60a5fa">
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.0" fill="#38bdf8">
     <g clip-path="url(#w0)"><text x="16" y="24" textLength="324" lengthAdjust="spacing" xml:space="preserve">                                                   ` `</text></g>
     <rect x="16" y="16" width="6" height="10" fill="#38bdf8" opacity="0"><set attributeName="opacity" to="0.9" begin="0.0s" fill="freeze"/><animate attributeName="x" from="16" to="616" begin="0.0s" dur="0.34s" fill="freeze"/><set attributeName="opacity" to="0" begin="0.34s" fill="freeze"/></rect>
 
@@ -157,25 +151,17 @@
 <circle cx="621" cy="218" r="220" fill="url(#glow)"/>
 <text x="396" y="87" font-family="ui-monospace,Consolas,monospace" font-size="10" font-weight="700" letter-spacing="1.3" fill="#38bdf8">WORDMARK.SH / --NAME SEPANSAR</text>
 
-<g transform="translate(397 114)" clip-path="url(#type)" font-family="ui-monospace,Consolas,monospace" font-size="12" font-weight="700" fill="url(#word)">
-  <g class="phase-a">
-    <text x="0" y="20" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ____  _____ ____   _    _   _ ____    _    ____  </text>
-    <text x="0" y="46" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">/ ___|| ____|  _ \ / \  | \ | / ___|  / \  |  _ \ </text>
-    <text x="0" y="72" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">\___ \|  _| | |_) / _ \ |  \| \___ \ / _ \ | |_) |</text>
-    <text x="0" y="98" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ___) | |___|  __/ ___ \| |\  |___) / ___ \|  _ &lt; </text>
-    <text x="0" y="124" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">|____/|_____|_| /_/   \_\_| \_|____/_/   \_\_| \_\</text>
-  </g>
-  <g class="phase-b">
-    <text x="0" y="20" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.----..-----.----.  .--.  .-. .-.----.  .--.  .----.</text>
-    <text x="0" y="46" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">| {}  | |__ | {}  )/ {} \ |  \| | {}  )/ {} \ | {}  )</text>
-    <text x="0" y="72" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">`--. :| |__ | .--'/  /\  \| |\  | .--'/  /\  \| .-. \</text>
-    <text x="0" y="98" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">`----'`-----'`-'  `-'  `-'`-' `-'`-'  `-'  `-'`-' `-'</text>
-  </g>
+<g transform="translate(397 106)" clip-path="url(#type)" font-family="ui-monospace,Consolas,monospace" font-size="14.5" font-weight="900" fill="url(#word)">
+  <text x="0" y="24" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">██████ ██████ ██████   ██   ███  ██ ██████   ██   ██████ </text>
+  <text x="0" y="52" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">██     ██     ██   ██ ██  ██ ████ ██ ██     ██  ██ ██   ██</text>
+  <text x="0" y="80" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">██████ █████  ██████  ██████ ██ █  █ ██████ ██████ ██████ </text>
+  <text x="0" y="108" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    ██ ██     ██      ██  ██ ██    █     ██ ██  ██ ██  ██ </text>
+  <text x="0" y="136" textLength="424" lengthAdjust="spacingAndGlyphs" xml:space="preserve">██████ ██████ ██      ██  ██ ██    █ ██████ ██  ██ ██   ██</text>
 </g>
 
-<rect x="397" y="118" width="6" height="22" fill="#38bdf8">
-  <animate attributeName="x" from="397" to="821" dur="2.25s" calcMode="spline" keySplines=".32 .72 0 1" fill="freeze"/>
-  <set attributeName="opacity" to="0" begin="2.25s" fill="freeze"/>
+<rect x="397" y="112" width="6" height="24" fill="#38bdf8">
+  <animate attributeName="x" from="397" to="821" dur="1.8s" calcMode="spline" keySplines=".32 .72 0 1" fill="freeze"/>
+  <set attributeName="opacity" to="0" begin="1.8s" fill="freeze"/>
 </rect>
 
 <text x="397" y="368" font-family="ui-monospace,Consolas,monospace" font-size="13" font-weight="700" fill="#f8fafc">SAJAD JAFARI · SEPANSAR</text>
